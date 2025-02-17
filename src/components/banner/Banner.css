@@ -1,0 +1,37 @@
+.BannerSection{
+    padding: 25px 0px;
+}
+.box{
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+}
+.BannerSection .info{
+    position: absolute;
+    z-index: 2;
+    padding: 0px 50px;
+    top: 20%;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.BannerSection .info:hover{
+    transform: scale(1.2);
+}
+.BannerSection .info h4{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    min-height:100px ;
+    color: #253D4E;
+    line-height: 1.2;
+    font-family: sans-serif;
+}
+.BannerSection .info button{
+    background-color: #3bb77e;
+    color: #FFFFFF;
+    font-size: 12px;
+}
+.BannerSection .info button svg{
+    font-size: 16px;
+    margin-left: 8px;
+}

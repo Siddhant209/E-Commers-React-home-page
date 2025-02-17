@@ -1,0 +1,55 @@
+.filter-tab li a{
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+}
+.filter-tab li{
+    margin-left: 20px;
+}
+.filter-tab li:hover a{
+    color: #3bb77e;
+   transform: translateY(-10px);
+}
+.productRow{
+    display: flex;
+    padding: 30px 0px;
+    margin: 0px -15px;
+}
+.productRow .item{
+    width: 100%;
+    padding: 15px 15px;
+}
+.newsLetterSection{
+    width: 100%;
+    height: auto;
+}
+.newsLetterSection .box{
+    background-image: url(../../assets/images/banner-10.png);
+    width: 100%;
+    height: auto;
+}
+.newsLetterSection .box .info,.newsLetterSection .box .img{
+    width: 50%;
+}
+.newsLetterSection .box img{
+    width: 100%;
+}
+.newsLetterSection .box .info{
+  padding: 0px 40px;
+}
+.newsLetterSection .box .info h2{
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 70px;
+}
+.newsLetterSection .box .info p{
+    font-size: 25px;
+    opacity: 0.8;
+}
+.newsLetterSection .box .info button{
+    background-color: #3bb77e;
+    color: #FFFFFF;
+}

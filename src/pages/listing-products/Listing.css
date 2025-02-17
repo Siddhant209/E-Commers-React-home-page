@@ -1,0 +1,23 @@
+.listing-page{
+    width: 100%;
+    height: auto;
+    padding: 40px 0px;
+}
+.listing-page .breadCrumb{
+    background:#d8f1e5;
+    width: 100%;
+    height: auto;
+    padding: 45px 25px;
+    border-radius: 20px;
+}
+.listing-page .breadCrumb h2{
+    color: #000;
+    opacity: 0.8;
+    font-size: 48px;
+    font-weight: bold;
+}
+.listing-page .breadCrumb a{
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
